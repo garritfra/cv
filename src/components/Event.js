@@ -7,6 +7,7 @@ export default function Event({ title, description, year }) {
       <YearContainer>
         <Title>{year}</Title>
       </YearContainer>
+      <Divider />
       <ContentContainer>
         <Title>{title}</Title>
         <p>{description}</p>
@@ -21,13 +22,19 @@ const YearContainer = styled.div`
   margin-right: 1em;
 `;
 
-const ContentContainer = styled.div``;
+const ContentContainer = styled.div`
+  margin-left: 2em;
+`;
 
 const Container = styled.div`
   display: flex;
-  margin: 1em;
 `;
 
 const Title = styled.h2`
   margin: 0;
+`;
+
+const Divider = styled.div`
+  width: 0.5em;
+  background: blue;
 `;
