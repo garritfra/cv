@@ -6,6 +6,7 @@ const Container = styled.div`
   align-items: center;
   margin-left: 30vw;
   margin-right: 10vw;
+  margin-top: 5em;
   font-family: Montserrat, sans-serif;
 
   @media screen and (max-width: 1200px) {
