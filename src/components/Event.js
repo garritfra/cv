@@ -5,12 +5,11 @@ export default function Event({ title, description, year }) {
   return (
     <Container>
       <YearContainer>
-        <Title>{year}</Title>
+        <Year>{year}</Year>
       </YearContainer>
-      <Divider />
       <ContentContainer>
         <Title>{title}</Title>
-        <p>{description}</p>
+        <Description>{description}</Description>
       </ContentContainer>
     </Container>
   );
@@ -24,6 +23,7 @@ const YearContainer = styled.div`
 
 const ContentContainer = styled.div`
   margin-left: 2em;
+  max-width: 30em;
 `;
 
 const Container = styled.div`
@@ -31,6 +31,14 @@ const Container = styled.div`
 `;
 
 const Title = styled.h2`
+  margin: 0;
+`;
+
+const Description = styled.p`
+  text-align: justify;
+`;
+
+const Year = styled.h3`
   margin: 0;
 `;
 
