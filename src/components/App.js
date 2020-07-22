@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+import Event from "./Event";
 
 const Container = styled.div`
   text-align: center;
@@ -8,7 +9,9 @@ const Container = styled.div`
 export default function App() {
   return (
     <Container>
-      <h1>Hello World!</h1>
+      <Event title={"foo"} description="Lorem Ipsum" />
+      <Event title={"bar"} description="Lorem Ipsum" />
+      <Event title={"baz"} description="Lorem Ipsum" />
     </Container>
   );
 }
