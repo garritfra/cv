@@ -46,8 +46,3 @@ const Description = styled.p`
 const Year = styled.h3`
   margin: 0;
 `;
-
-const Divider = styled.div`
-  width: 0.5em;
-  background: blue;
-`;
