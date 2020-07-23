@@ -31,6 +31,11 @@ export default function App() {
         "CGI Germany\nProjects related to mobile app development in various fields, including smart home and vehicle connectivity",
     },
     {
+      year: "2019",
+      title:
+        "Cisco Certified Network Associate (CCNA) Routing and Switching (Certification)",
+    },
+    {
       year: "2018",
       title: "Programming Workshop Director",
       description:
