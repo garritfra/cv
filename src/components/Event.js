@@ -19,6 +19,9 @@ const YearContainer = styled.div`
   display: flex;
   justify-content: center;
   margin-right: 1em;
+  display: flex;
+  justify-content: right;
+  width: 10em;
 `;
 
 const ContentContainer = styled.div`
@@ -36,6 +39,8 @@ const Title = styled.h2`
 
 const Description = styled.p`
   text-align: justify;
+  white-space: pre-line;
+  line-height: 1.5;
 `;
 
 const Year = styled.h3`

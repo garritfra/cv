@@ -4,7 +4,7 @@ import Event from "./Event";
 
 const Container = styled.div`
   align-items: center;
-  margin-left: 30vw;
+  margin-left: 20vw;
   margin-right: 10vw;
   margin-top: 5em;
   font-family: Montserrat, sans-serif;
@@ -16,6 +16,7 @@ const Container = styled.div`
     margin-left: 10vw;
   }
   @media screen and (max-width: 600px) {
+    margin-left: 5vw;
   }
   @media screen and (max-width: 450px) {
   }
@@ -24,16 +25,43 @@ const Container = styled.div`
 export default function App() {
   const events = [
     {
-      year: 2020,
-      title: "foo",
+      year: "2020 - now",
+      title: "Mobile Application Developer",
       description:
-        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "CGI Germany\nProjects related to mobile app development in various fields, including smart home and vehicle connectivity",
     },
     {
-      year: 2019,
-      title: "bar",
+      year: "2018",
+      title: "Programming Workshop Director",
       description:
-        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "Oskar-Kämmer-Realschule - Braunschweig, Germany\nDuration: two terms\nDesigning and directing a programming workshop for students of grade 6-8\nScratch and Python were lectured",
+    },
+    {
+      year: "2017 - 2020",
+      title: "Mobile Application Developer (Traineeship)",
+      description:
+        "CGI Germany\nVarious Projects related to mobile app development in various fields, including fleet management and game development",
+    },
+    {
+      year: "2015 - 2017",
+      title: "Advanced technical certificate (Degree)",
+      description: "Otto-Bennemann-Schule - Braunschweig, Germany",
+    },
+    {
+      year: "2015 - 2016",
+      title: "SAP Developer (Internship)",
+      description: "Volkswagen Financial Services",
+    },
+    {
+      year: "2014 - 2015",
+      title: "High School (Student Exchange)",
+      description:
+        "Rutland Senior Secondary School - Kelowna, British Columbia, Canada",
+    },
+    {
+      year: "2014",
+      title: "Advanced high school diploma",
+      description: "Oskar-Kämmer Schule - Braunschweig, Germany",
     },
   ];
 
