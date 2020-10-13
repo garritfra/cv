@@ -1,3 +1,0 @@
-# Garrit Franke
-
-Resume goes here...
