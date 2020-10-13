@@ -1,3 +1,3 @@
-# react-parcel-boilerplate
+# Garrit Franke
 
-A minimal react boilerplate that uses parcel to bundle all of your assets
+Resume goes here...
