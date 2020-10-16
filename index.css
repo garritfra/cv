@@ -41,9 +41,13 @@ p {
 }
 h1 {
   font-size: 3rem;
+  background: black;
+  color: white;
 }
 h2 {
   font-size: 2.5rem;
+  background: black;
+  color: white;
 }
 h3 {
   font-size: 1.7rem;
